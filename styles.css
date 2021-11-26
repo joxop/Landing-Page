@@ -1,3 +1,7 @@
+html,body{
+    height: 100vh;
+    width: 100%;
+}
 *{
     font-family: roboto;
 }
@@ -5,7 +9,7 @@
 .button-1{
     color: white;
     background-color: #3882F6;
-    border-radius: 17%;
+    border-radius: 8px;
     height: 25px;
     width: 100px;
     text-align: center;
@@ -18,7 +22,7 @@
     background-color: #3882F6;
     width: 125px;
     height: 25px;
-    border-radius: 17%;
+    border-radius: 8px;
     text-align: center;
     color: white;
     padding: 5px
@@ -29,8 +33,9 @@
 
 .call2action{
     background-color: #3882F6;
-    height: 100px;
-    width: 400px
+    height: 150px;
+    width: 850px;
+    border-radius: 10px;
 
 }
 
@@ -41,7 +46,7 @@
 }
 .container2{
     /* background-color: #1f2937; */
-    height: 440px;
+    height: 480px;
     display: flex;
     align-items: center;
 }
@@ -60,6 +65,13 @@
     align-content: center;
 }
 
+.header{
+    display: flex;
+    /* justify-content: flex-end; */
+
+
+}
+
 footer{
     background-color: #1f2937;
     height: 10s0px;
@@ -70,4 +82,30 @@ footer{
 .footerp{
     padding: 3em;
     color: white;
+}
+
+.header-logo{
+    color: #f9faf8;
+    font-size: 36px;
+    /* font-weigt: bold; */
+    margin-right: auto;
+}
+
+ .headerlinks-1 .headerlinks-2 .headerlinks-3 {
+    color: #e5e7eb;
+    font-size: 18px;
+    color: white;
+}
+
+a{
+    color: #e5e7eb;
+
+}
+
+a:hover{
+    color:salmon;
+}
+
+.hlinks{
+    display: flex;
 }
