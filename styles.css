@@ -1,0 +1,73 @@
+*{
+    font-family: roboto;
+}
+
+.button-1{
+    color: white;
+    background-color: #3882F6;
+    border-radius: 17%;
+    height: 25px;
+    width: 100px;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.button-2{
+    border: 2px solid white;
+    background-color: #3882F6;
+    width: 125px;
+    height: 25px;
+    border-radius: 17%;
+    text-align: center;
+    color: white;
+    padding: 5px
+
+}
+
+
+
+.call2action{
+    background-color: #3882F6;
+    height: 100px;
+    width: 400px
+
+}
+
+.container1{
+    background-color: #1f2937;
+    height: 530px;
+    width: auto;
+}
+.container2{
+    /* background-color: #1f2937; */
+    height: 440px;
+    display: flex;
+    align-items: center;
+}
+
+.container3{
+    background-color: #e5e7eb;
+    height: 440px;
+    
+}
+
+.container4{
+    /* background-color: #3882f6; */
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+footer{
+    background-color: #1f2937;
+    height: 10s0px;
+    text-align: center;
+
+}
+
+.footerp{
+    padding: 3em;
+    color: white;
+}
