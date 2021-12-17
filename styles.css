@@ -51,9 +51,8 @@ html,body{
 .container2{
     height: 480px;
      display: flex;
-     /* flex-direction: row; */
-    /* align-items: center; 
-    justify-content: space-around; */
+    justify-content: center; 
+    padding-left: 60px;
 }
 
 .container3{
@@ -150,6 +149,16 @@ a{
 
 a:hover{
     color:salmon;
+}
+
+.button-2:hover {
+    background-color:white;
+    color: black;
+}
+
+.button-1:hover {
+    background-color:white;
+    color: black;
 }
 
 .hlinks{
@@ -286,12 +295,18 @@ padding-top: -200px;
     margin-top: 138px;
 }
 
+
 .rndinfo{
-    margin-top:30px;
-    margin-left: 480px;
+    /* margin-top:30px;
+    margin-left: 480px; */
+    position: relative; top: 70px; left: 500px;
 }
 
 .imgs{
 display:flex;
 list-style-type: none;
 }
+
+
+
+
