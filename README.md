@@ -1,10 +1,4 @@
-# Landing-Page
+this project I learned to build a basic website using Flexbox.
+given a stylesheet  (click here for stylesheet)[https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/01.png] i had to design a websit close to the stylesheet bove.
 
-This project I was given a design image and font,size and color codes. With this infomation, i was to build a landing page similiar to the ine listed, using Css and Flexbox. This project really helped me get familiar with Flex and also how to import fonts to use in my project.
-
-Design image
-https://cdn.statically.io/gh/TheOdinProject/curriculum/main/foundations/html_css/project/odin-project.png
-
-Fonts, color and size codes:
-https://cdn.statically.io/gh/TheOdinProject/curriculum/main/foundations/html_css/project/colors_and_stuff.png
-
+I learned the importance flexbox to aligning, items. some problems I faced were tweking an aligned image a little more than what flex provided.
