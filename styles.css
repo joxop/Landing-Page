@@ -1,334 +1,306 @@
-html,body{
-    height: 100vh;
-    width: 100%;
-    background-color: transparent;
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: transparent;
 }
 
-
-.button-1{
-    color: white;
-    background-color: #3882F6;
-    border-radius: 8px;
-    height: 25px;
-    width: 100px;
-    text-align: center;
-    padding: 5px;
-    font-weight: bold;
+.button-1 {
+  color: white;
+  background-color: #3882f6;
+  border-radius: 8px;
+  height: 25px;
+  width: 100px;
+  text-align: center;
+  padding: 5px;
+  font-weight: bold;
 }
 
-.button-2{
-    border: 2px solid white;
-    background-color: #3882F6;
-    width: 125px;
-    height: 25px;
-    border-radius: 8px;
-    text-align: center;
-    color: white;
-    padding: 5px;
-    margin-left: 800px;
-    margin-top: -60px;
-
+.button-2 {
+  border: 2px solid white;
+  background-color: #3882f6;
+  width: 125px;
+  height: 25px;
+  border-radius: 8px;
+  text-align: center;
+  color: white;
+  padding: 5px;
+  /* margin-left: 800px; */
+  margin-top: -60px;
 }
 
-
-
-.call2action{
-    background-color: #3882F6;
-    height: 150px;
-    width: 1200px;
-    border-radius: 8px;
-    margin: 95px;
-  
-
+.ts {
+  display: flex;
+  justify-content: flex-end;
 }
 
-.container1{
-    background-color: #1f2937;
-    height: 530px;
-    width: auto;
-}
-.container2{
-    height: 480px;
-     display: flex;
-    justify-content: center; 
-    padding-left: 60px;
+.st {
+  display: flex;
+  justify-content: flex-end;
 }
 
-.container3{
-    background-color: #e5e7eb;
-    height: 440px;
-    display: flex;
-    
+.call2action {
+  background-color: #3882f6;
+  height: 150px;
+  width: 80rem;
+  border-radius: 8px;
+  margin: 95px;
+  padding-right: 20px;
 }
 
-.container4{
-    height: 330px;
-    display: flex;
-    justify-content: center;
-    align-content: center;
+.container1 {
+  background-color: #1f2937;
+  height: 530px;
+  width: 100vw;
+}
+.container2 {
+  height: 480px;
+  display: flex;
+  justify-content: center;
+  padding-left: 60px;
 }
 
-.header{
-    display: flex;
-
-
+.container3 {
+  background-color: #e5e7eb;
+  height: 440px;
+  display: flex;
 }
 
-.header-2{
-    margin-top: 300px;
-    margin-left: 500px;
-    font-size: 20px;
-    
-    }
+.container4 {
+  height: 330px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
 
+.header-2 {
+  margin-top: 300px;
+  margin-left: 500px;
+  font-size: 20px;
+}
 
-.header-logo{
-    color: #f9faf8;
-    font-size: 36px;
-    margin-left: 130px;
-    margin-top: -40px;
-    display: flex;
-
+.header-logo {
+  color: #f9faf8;
+  font-size: 36px;
+  margin-left: 130px;
+  margin-top: -40px;
+  display: flex;
 }
 
 .hlinks {
-    color: #e5e7eb;
-    font-size: 18px;
-    font-weight: lighter;
-    margin-left: 400px;
-    text-decoration: none;
-    display: flex;
-
+  color: #e5e7eb;
+  font-size: 18px;
+  font-weight: lighter;
+  margin-left: 400px;
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-end;
 }
 
-.headerlinks-1{
-margin-right: 70px;
-margin-top:20px;
-
+.headerlinks-1 {
+  margin-right: 70px;
+  margin-top: 20px;
 }
 
-.headerlinks-2{
-    margin-right: 70px;
-    margin-top:20px;
-
+.headerlinks-2 {
+  margin-right: 70px;
+  margin-top: 20px;
 }
 
-.headerlinks-3{
-    margin-right: 170px;
-    margin-top:20px;
-
+.headerlinks-3 {
+  margin-right: 170px;
+  margin-top: 20px;
 }
 
-footer{
-    background-color: #1f2937;
-    height: 100px;
-    text-align: center;
+footer {
+  background-color: #1f2937;
+  height: 100px;
+  text-align: center;
 }
 
-.footerp{
-    padding: 2em;
-    color: white;
-    font-weight: lighter;
-    font-size: 18;
+.footerp {
+  padding: 2em;
+  color: white;
+  font-weight: lighter;
+  font-size: 18;
 }
 
-
-
-
-
-a{
-    color: #e5e7eb;
-    text-decoration:none;
+a {
+  color: #e5e7eb;
+  text-decoration: none;
 }
 
-
-
-a:hover{
-    color:salmon;
+a:hover {
+  color: salmon;
 }
 
 .button-2:hover {
-    background-color:white;
-    color: black;
+  background-color: white;
+  color: black;
 }
 
 .button-1:hover {
-    background-color:white;
-    color: black;
+  background-color: white;
+  color: black;
 }
 
-
-
-
-.test1{
-    color: #f9faf8;
-    font-size: 26px;
-    margin-bottom: 0px;
-    margin-left: 230px;
-    font-weight: bolder;
-    margin-top: 50px;
-    
+.test1 {
+  color: #f9faf8;
+  font-size: 26px;
+  margin-bottom: 0px;
+  margin-left: 230px;
+  font-weight: bolder;
+  margin-top: 50px;
 }
 
-
-
-.test2{
-    color: #e5e7eb;
-    margin-left: 100px;
-    margin-top: -30px;
-    font-size: 18px;
-    font-weight: lighter;
-
-    
+.test2 {
+  color: #e5e7eb;
+  margin-left: 100px;
+  margin-top: -30px;
+  font-size: 18px;
+  font-weight: lighter;
 }
 
-h1{
-color: #f9faf8;
-font-size: 48px;
+h1 {
+  color: #f9faf8;
+  font-size: 48px;
 }
 
-
-h3{
-color: #1f2937;
-font: 300;
-font-style: italic;
-font-size: 36px;
-font-weight: lighter;
-margin-top: 80px;
-margin-left: 155px;
+h3 {
+  color: #1f2937;
+  font: 300;
+  font-style: italic;
+  font-size: 36px;
+  font-weight: lighter;
+  margin-top: 80px;
+  margin-left: 155px;
 }
 
-h4{
-    color: #1f2937;
-    margin-right: 318px;
-    margin-top: 300px;
+h4 {
+  color: #1f2937;
+  margin-right: 318px;
+  margin-top: 300px;
 }
 
-
-
-p{
-color:#e5e7eb;
-font-size: 18px;
-
+p {
+  color: #e5e7eb;
+  font-size: 18px;
 }
 
-
-
-
- .body-1{
-    margin-left: 130px;
- }
- .body-11{
-    margin-left: 130px;
-    margin-top:-35px;
-
- }
-
- .button-1{
-    margin-left: 130px;
- }
-
- .img-0{
-    height: 300px;
-    width: 280px;
-    position: relative;
-    left: 850px;
-    bottom: 250px;
-    background: transparent;
-    border-radius: 20px;
- }
-
-.img-1{
-    border: 4px solid #3882F6;
-    border-radius: 15px;
-    width: 150px;
-    height: 150px;
-    margin-right: 140px;
-    margin-top: 138px;
-    background-color: transparent;
-
-
+.body-1 {
+  margin-left: 130px;
+}
+.body-11 {
+  margin-left: 130px;
+  margin-top: -35px;
 }
 
-.img-2{
-    border: 4px solid #3882F6;
-    border-radius: 15px;
-    width: 150px;
-    height: 150px;
-    margin-right: 140px;
-    margin-top: 138px;
- 
+.button-1 {
+  margin-left: 130px;
 }
 
-.img-3{
-    border: 4px solid #3882F6;
-    border-radius: 15px;
-    width: 150px;
-    height: 150px;
-    margin-right: 140px;
-    margin-top: 138px;
+.img-0 {
+  height: 300px;
+  width: 280px;
+  background: transparent;
+  position: absolute;
+  right: 10rem;
+  margin-top: -5rem;
 }
 
-.img-4{
-    border: 4px solid #3882F6;
-    border-radius: 15px;
-    width: 150px;
-    height: 150px;
-    margin-right: 140px;
-    margin-top: 138px;
+.img-1 {
+  border: 4px solid #3882f6;
+  border-radius: 15px;
+  width: 150px;
+  height: 150px;
+  margin-right: 140px;
+  margin-top: 138px;
+  background-color: transparent;
 }
 
-.img-5{
-    /* border: 4px solid #3882F6; */
-    border-radius: 15px;
-    width: 100px;
-    height: 100px;
-    margin-right: 80px;
-    margin-top: 60px;
+.img-2 {
+  border: 4px solid #3882f6;
+  border-radius: 15px;
+  width: 150px;
+  height: 150px;
+  margin-right: 140px;
+  margin-top: 138px;
 }
 
-
-.rndinfo{
-    position: relative; top: 70px;
-    text-align: center;
+.img-3 {
+  border: 4px solid #3882f6;
+  border-radius: 15px;
+  width: 150px;
+  height: 150px;
+  margin-right: 140px;
+  margin-top: 138px;
 }
 
-.imgs{
-display:flex;
-list-style-type: none;
+.img-4 {
+  border: 4px solid #3882f6;
+  border-radius: 15px;
+  width: 150px;
+  height: 150px;
+  margin-right: 140px;
+  margin-top: 138px;
 }
 
-.images{
-    background: transparent;
-    height: 100%;
-    width: auto;
-    overflow: hidden;
-    
-
+.img-5 {
+  /* border: 4px solid #3882F6; */
+  border-radius: 15px;
+  width: 100px;
+  height: 100px;
+  margin-right: 80px;
+  margin-top: 60px;
 }
 
-.img-5{
-width:150px;
-height:150px;
-background-size: contain;
-overflow: hidden;
-left: 50px;
+.rndinfo {
+  position: relative;
+  top: 70px;
+  text-align: center;
 }
 
-.dog5{
-    position: relative;
-   right: 41px;
+.imgs {
+  display: flex;
+  list-style-type: none;
 }
 
-.img-1{
-    width:150px;
-    height:150px;
-    background-size: contain;
-    overflow: hidden;
-    left: 50px;
-    }
-    
-    .dog2{
-        position: relative;
-       right: 30px;
-    }
+.images {
+  background: transparent;
+  height: 100%;
+  width: auto;
+  overflow: hidden;
+}
+
+.img-5 {
+  width: 150px;
+  height: 150px;
+  background-size: contain;
+  overflow: hidden;
+  left: 50px;
+}
+
+.dog5 {
+  position: relative;
+  right: 41px;
+}
+
+.img-1 {
+  width: 150px;
+  height: 150px;
+  background-size: contain;
+  overflow: hidden;
+  left: 50px;
+}
+
+.dog2 {
+  position: relative;
+  right: 30px;
+}
+
+.body22 {
+  height: 10%;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+}
